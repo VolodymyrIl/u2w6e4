@@ -1,0 +1,204 @@
+/* IMPOSTAZIONI GENERALI */
+body{
+   font-family: Poppins, sans-serif;
+}
+img.sfondo{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sfondo{
+    position: fixed;
+    top: 0;
+ 
+  z-index: -1;
+}
+h1{
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.3em;
+}
+h2{
+    font-size: 1.3em;
+}
+a{
+    color: rgba(34,124,195);
+}
+/* HEADER */
+header, footer {
+    margin: 20px;
+    padding: 10px;
+    background: radial-gradient(circle,rgba(34,124,195,1) 0%, rgba(32,157,189,1))100%;
+box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+}
+header div{
+    padding: 0 48px;
+}
+
+header div img{
+    width: 100%;
+    padding-top: 20px;
+}
+header p {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 12px;
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 8px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: unset;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+nav ul {
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul li i {
+    color: white;
+    margin-right: 4px;
+}
+
+/* MAIN */
+main{
+    margin: 20px;
+    padding: 10px;
+    background: white;
+    box-shadow:5px 5px 5px rgba(0,0,0,0.3)  ;
+}
+article p {
+    padding: 8px 0;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+article p:first-of-type{
+    color: gray;
+    padding: 20px 0;
+}
+article p strong{
+    font-weight: 600;
+    color: deeppink;
+}
+
+article ul li {
+    line-height: 1.8em;
+}
+article ul,article ol {
+    padding-left: 25px;
+    padding-bottom: 16px;
+}
+code {
+    background-color: gainsboro;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 1px 6px;
+}
+/* TABELLE */
+table{
+    width: 100%;
+}
+table caption {
+    font-weight: 600;
+    padding-bottom: 8px;
+
+
+}
+thead{
+    background: rgba(34,124,195);
+}
+th {
+    padding: 12px 2px;
+    color: white;
+}
+tr {
+    border-bottom: solid 1px lightgrey;
+
+}
+td {
+    padding: 7px;
+    
+}
+tr:last-of-type{
+    border-bottom:  3px rgba(34,124,195);
+}
+tr:nth-child(even) {
+    background: rgb(221,221,221);
+}
+
+/* FORM */
+article section{
+    background-color: lightgray;
+    padding: 0 18px 18px 18px;
+    margin-top: 28px;
+}
+article section h2{
+    position: relative;
+top: -10px;
+left: 15px;
+background-color: gray;
+max-width: 80px;
+padding: 7px 12px;
+box-shadow: 3px 3px #444;
+text-transform: uppercase;
+}
+article section p {
+    color: black!important;
+}
+
+/* ELEMENTI NELL' ASIDE */
+aside h2 {
+    padding: 24px 0;
+    text-align: center;
+}
+aside div{
+margin: 8px 16px;
+padding: 20px;
+background: lightgrey;
+}
+aside div a{
+    font-weight: 600;
+}
+aside div p:first-of-type{
+    padding: 10px 0 30px 0;
+
+}
+aside div p:last-of-type{
+    text-align: right;
+    font-size: 0.8em;
+}
+/* FOOTER */
+footer{
+    color: white;
+    text-align: center;
+}
+footer p{
+    padding: 12px 0;
+
+}
+address{
+    line-height: 1.5em;
+    padding-bottom: 20px;
+}
+address a{
+    font-weight: 600;
+    color: deeppink;
+}
+toTop{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9;
+    background: white;
+    padding: 14px;
+    border-radius: 40px;
+    border: 2px solid cornflowerblue;
+}
